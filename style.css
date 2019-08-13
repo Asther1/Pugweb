@@ -1,0 +1,12 @@
+*{
+    font-family: 微軟正黑體;
+    padding: 0;
+    margin: 0;
+}
+
+#banner{
+    background-image: url(imgs/161229_Banner_001.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 600px;
+}
