@@ -21,6 +21,7 @@ body{
 
 .logo{
     width: 300px;
+    margin-right: 300px;
 }
 
 .link{
@@ -164,7 +165,7 @@ footer{
 }
 
 footer #copy{
-    padding-top: 20px;
+    padding-top: 5px;
     font-size: 12px;
 }
 
