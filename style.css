@@ -21,7 +21,6 @@ body{
 
 .logo{
     width: 300px;
-    margin-right: 300px;
 }
 
 .link{
@@ -74,7 +73,7 @@ nav{
     /* 透明度 */
     opacity: 0.6;
     /* 字拒 */
-    letter-spacing: 7px;
+    letter-spacing: 3px;
 }
 
 .title-box{
@@ -165,7 +164,66 @@ footer{
 }
 
 footer #copy{
-    padding-top: 5px;
+    padding-top: 20px;
     font-size: 12px;
 }
 
+  /* RWD */
+
+/* 當螢幕寬度大於等於 1024 像素 - 桌機 */
+@media screen and (min-width: 1024px) {
+  
+}
+
+/* 當螢幕寬度小於等於 1023 像素 - 平板 */
+@media screen and (max-width: 1023px) {
+  #product{
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+  }
+}
+
+/* 當螢幕寬度小於等於 767 像素 - 手機 */
+@media screen and (max-width: 767px) {
+    #product {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding:0px;
+      }
+      #product hr{
+        width: 100%;
+      }
+    
+      #brands{
+        width: 100%;
+      }
+
+      #brands p{
+        width: 100%;
+        padding: 0px;
+      }
+
+      #brands > img{
+        width: 100%;
+      }
+
+      #banner{
+          background-position: center 0;
+          width: 100%;
+      }
+
+      nav{
+          text-align: center;
+          padding: 10px 0 ;
+      }
+
+      .logo{
+          width: 200px;
+      }
+
+      .link{
+          float: none;
+          padding: 10px 0;
+      }
+  
+}

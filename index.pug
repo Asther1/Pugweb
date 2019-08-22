@@ -16,6 +16,7 @@ mixin product-box(img,tit2,text)
 html(lang="zh")
     head
         meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no")
         title 狸小路  | 首頁
         link(rel="stylesheet", href="style.css")
         link(rel="shortcut icon", href="imgs/Logo.png", type="image/x-icon")
@@ -41,5 +42,5 @@ html(lang="zh")
         div(class="Message")
         +title("CONTACT","聯絡我們")
 
-        include footer.pug
+        include footer.pug 
 
